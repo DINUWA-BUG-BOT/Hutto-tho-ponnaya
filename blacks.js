@@ -723,7 +723,7 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/JW0krYgY/IMG-20251022-WA0016.jpg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/yNvo6nB.jpeg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
@@ -1271,7 +1271,7 @@ case 'video2': {
 //========================================================================================================================//		      
 		      case "credits": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/qfkj2n.png' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -LOD CHANNEL 01 ➪\n - https://whatsapp.com/channel/0029VbAWWH9BFLgRMCXVlU38\n\n -LOD CHANNEL 02 ➪\n - https://whatsapp.com/channel/0029Vb6bvvP9cDDc8TRTzm41\n\n -LOD MINI BOT LINK ➪\n - https://whatsapp.com/channel/0029VbBqGK64dTnC22fWR92k\n\n - TELIGRAM CHANNNEL ➪\n - https://t.me/lod_tech_back\n\n - MY NUMBER➪\n - https://wa.me/+94753262213?text=_ʜɪ_Bot+owner+🕊\n\nLOD TECH`}, { quoted: m}); 
+              client.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/JW0krYgY/IMG-20251022-WA0016.jpg' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -LOD CHANNEL 01 ➪\n - https://whatsapp.com/channel/0029VbAWWH9BFLgRMCXVlU38\n\n -LOD CHANNEL 02 ➪\n - https://whatsapp.com/channel/0029Vb6bvvP9cDDc8TRTzm41\n\n -LOD MINI BOT LINK ➪\n - https://whatsapp.com/channel/0029VbBqGK64dTnC22fWR92k\n\n - TELIGRAM CHANNNEL ➪\n - https://t.me/lod_tech_back\n\n - MY NUMBER➪\n - https://wa.me/+94753262213?text=_ʜɪ_Bot+owner+🕊\n\nLOD TECH`}, { quoted: m}); 
                
 		      break;
 
@@ -3064,7 +3064,7 @@ m.reply("An error occured.")
           externalAdReply: {
           title: "𝗛𝗶 𝗕𝗿𝗼👋, 𝗜 𝗮𝗺 𝗔𝗹𝗶𝘃𝗲 𝗻𝗼𝘄",
           body: "𝐒𝐎𝐋𝐎 𝐋𝐄𝐕𝐄𝐋𝐈𝐍𝐆-𝐌𝐃",
-          thumbnailUrl: "https://files.catbox.moe/qfkj2n.png",
+          thumbnailUrl: "https://i.ibb.co/JW0krYgY/IMG-20251022-WA0016.jpg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
@@ -3436,7 +3436,7 @@ break;
 //========================================================================================================================//		      
   case "system": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/qfkj2n.png' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝐒𝐎𝐋𝐎 𝐋𝐄𝐕𝐄𝐋𝐈𝐍𝐆 𝐁𝐎𝐓*\n\n*𝐒𝐏𝐄𝐄𝐃: ${Rspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝐇𝐄𝐑𝐎𝐊𝐔*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝐃𝐈𝐍𝐔 *\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝐋𝐎𝐃 𝐓𝐄𝐂𝐇`}); 
+              client.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/JW0krYgY/IMG-20251022-WA0016.jpg' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝐒𝐎𝐋𝐎 𝐋𝐄𝐕𝐄𝐋𝐈𝐍𝐆 𝐁𝐎𝐓*\n\n*𝐒𝐏𝐄𝐄𝐃: ${Rspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝐇𝐄𝐑𝐎𝐊𝐔*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝐃𝐈𝐍𝐔 *\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝐋𝐎𝐃 𝐓𝐄𝐂𝐇`}); 
  break;
 
 //========================================================================================================================//		      
@@ -4563,7 +4563,7 @@ break;
                             showAdAttribution: true,
                             title: '𝐒𝐎𝐋𝐎 𝐋𝐄𝐕𝐄𝐋𝐈𝐍𝐆 𝐁𝐎𝐓',
                             body: 'https://whatsapp.com/channel/0029Vb6bvvP9cDDc8TRTzm41',
-                            thumbnailUrl: 'https://files.catbox.moe/qfkj2n.png',
+                            thumbnailUrl: 'https://i.ibb.co/JW0krYgY/IMG-20251022-WA0016.jpg',
                             sourceUrl: 'https://whatsapp.com/channel/0029Vb6bvvP9cDDc8TRTzm41',
                             mediaType: 1,
                             renderLargerThumbnail: true
